@@ -1,0 +1,17 @@
+# Target the backend secret database configurations
+backend/config/.env
+backend/.env
+.env
+
+# Ignore heavy node dependency packages anywhere they appear
+node_modules/
+backend/node_modules/
+client/node_modules/
+
+# Ignore local frontend Vite production build outputs
+client/dist/
+
+# System / Log clutter
+.DS_Store
+Thumbs.db
+*.log
